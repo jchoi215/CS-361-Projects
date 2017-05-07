@@ -1,0 +1,13 @@
+Heap after first round of allocations: 101421120, free 1, inuse 10003
+Heap after first gc(): 816, free 0, inuse 2
+Heap after second round of allocations: 101420816, free 0, inuse 10002
+Heap after clearing all but one, and gc(): 101420816, free 0, inuse 10002
+Heap after clearing last one, and gc(): 816, free 0, inuse 2
+Heap after third round of allocations: 101420816, free 0, inuse 10002
+Heap after clearing all but one, and gc(): 101420816, free 0, inuse 10002
+Heap after clearing last one, and gc(): 816, free 0, inuse 2
+Now checking stack root set handling.
+Recursive1: at depth 50, 395600, free 0, inuse 54
+After Recursive1 816, free 0, inuse 2
+Recursive2: At depth 50, 520160, free 0, inuse 103
+After Recursive2 816, free 0, inuse 2
